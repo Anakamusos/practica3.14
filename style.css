@@ -48,3 +48,12 @@ img{
     right: 1%;
     position: absolute;
 }
+
+h3.con{
+    counter-reset: nom;
+}
+
+p.contador::before{
+    content: counter(nom);
+    counter-increment: nom 1;
+}
