@@ -1,0 +1,50 @@
+body{
+    background-color: cadetblue;
+}
+
+h1.centro:first-letter{
+    text-align: center;
+    font-size: 200%;
+    color: black;
+    font-weight: bold;
+}
+h1.centro{
+    color: blue;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+h3.centro{
+    text-align: center;
+}
+
+p.rojo:first-line{
+    color: red;
+}
+
+a.ver{
+    color: blue;
+}
+
+a.ver:hover{
+    background-color: yellow;
+    color: red;
+}
+div a:visited[href="https://www.apple.com/es/"]{
+    color: white;
+    background-color: blue;
+}
+div a{
+    color: blue;
+    background-color: white;
+}
+
+p.cursiva{
+    font-style: italic;
+}
+
+img{
+    right: 1%;
+    position: absolute;
+}
